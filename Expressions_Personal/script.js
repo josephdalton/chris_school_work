@@ -1,17 +1,15 @@
 // JavaScript Document
-//Defining how many energy drink per year
+//Defining how many energy drinks I drink per year
 
-//Define Vars
+var energyDrinks = ["AMP", "Monster", "Rockstar", "Redbull"]; /* drink selections 0,1,2,3 */
+var perDay = 2; /* How many drinks per day */
+var dayYears = 365; /* How many days per year */
+ 
+console.log("I drink", energyDrinks[0], perDay * dayYears, "times per year"); /* Calculate how many drinks per year */
 
-var energyDrinks; /* Create var for drinks */
-var amountDays; /* Create var for how many days per year */
-var perDay; /* Create var for how many drinks per day */
 
-energyDrinks = 1; /* define the energy drinks*/
-amountDays = 365; /* days per year */
-perDay = 2; /* how many energy drinks per day */
 
-console.log = [amountDays * perDay * energyDrinks]; /* Multiplies amount of days times per day times the amount of energy drinks per purchase 2 x 365 x 1 = 730  */
+
 
 
 
