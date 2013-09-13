@@ -1,6 +1,6 @@
 // JavaScript Document
 //Chris Lynch, 9/12/13 Expressions Industry
-//Defining how many energy drinks I drink per year
+//Amount of memory left and how much is used
 
 var ramAmounts = ["1GB", "2GB", "3GB"]; /* drink selections 0,1,2,3 */
 var ramSize = 1024; /* RAM stick size in MB */
