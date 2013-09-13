@@ -8,7 +8,7 @@ var slotSize = 2048; /* How much RAM per slot */
 var slotAmounts = ["1","2","3"]; /* How many RAM slots */
 
  
-console.log("There can be", ramAmounts[0], "with", slotAmounts[2], "avaliable.","/n There are", slotSize * 2, "unallocated RAM"   ); /* Calculate how much RAM is used, and how much is avaliable */
+console.log("There is", ramAmounts[0], "of RAM used with", slotAmounts[2], "slots avaliable.", " There are", slotSize * 2, "MB of unallocated RAM"   ); /* Calculate how much RAM is used, and how much is avaliable */
 
 
 
