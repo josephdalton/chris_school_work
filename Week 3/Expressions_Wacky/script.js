@@ -1,22 +1,20 @@
-// JavaScript Document
-//Chris Lynch, 9/12/13 Expressions Wacky
-//How many times I wear lip stick per year
+// Chris Lynch 9/19/13 Conditionals Wacky
 
-var lipstickType = ["Mac", "Loreal", "NYX"]; /* Lipstick Brands 0,1,2 */
-var daysYear = 365; /* Days in a year */
-var timeMonth = 2; /* How many times per month */
-var monthsYear = 12; /* How many months in a year */
-
- 
-console.log("I wear", lipstickType[2], "brand lipstick", monthsYear * timeMonth, "times a year","(",daysYear," days in a year)"); /* Calculate how many times a year I wear lip stick */
+var jordanName = "Air Foamposite Thermal Maps"
+/*Defining age required to get a CDL*/
+var buyJordan = "225";
+/*Defining my age*/
+var myMoney = "500000";
 
 
-
-
-
-
-
-
-
-
-
+/* if the required age is equal to or greater than */
+if(buyJordan<=myMoney)
+{
+	/*Output the information if the equasion is greater then 21 */
+	console.log("You can buy your", jordanName, "because you have", myMoney, "dollars and they cost", buyJordan, "dollars.. Added to Cart");
+}
+else{
+	/* if the age is not greater than 21 this result will show */
+	console.log("Sorry you cant buy your", jordanName, "because you only have", myMoney, "dollars and they cost", buyJordan, "dollars..");
+	
+	};
