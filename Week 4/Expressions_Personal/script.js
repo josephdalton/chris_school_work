@@ -8,9 +8,11 @@ function calcFood(){
 	var foodWk = teaSpn * weekDys;
 	var foodMon = teaSpn * monthDys;
 	
-	console.log("My ferret eats" + teaSpn + "Tsp. per day. Thats " + foodWk + "Tsp. per week and" + foodMon + "Tsp. per month. ")
+console.log("My ferret eats " + teaSpn + " Tsp. per day. Thats " + foodWk + " Tsp. per week and " + foodMon + " Tsp. per month. ")
+	
 }
 
+calcFood();
 
 
 
