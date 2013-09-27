@@ -1,19 +1,15 @@
-// Chris Lynch 9/19/13 Conditionals Industry
-
-/*Defining age required to get a CDL*/
-var reqAge = "21";
-/*Defining my age*/
-var myAge = "20";
+// Chris Lynch 9/24/13 Functionals Industry
 
 
-/* if the required age is equal to or greater than */
-if(reqAge<=myAge)
-{
-	/*Output the information if the equasion is greater then 21 */
-	console.log("You can have a CDL Licence in Rhode Island!");
-}
-else{
-	/* if the age is not greater than 21 this result will show */
-	console.log("You are not old enough to have a CDL Licence in Rhode Island");
+var calcPages = function(scriptDay, daysYear, daysMonth){
+	var scriptsYr = scriptDay * daysYear;
+	var scriptsMo = scriptDay * daysMonth;
 	
-	};
+console.log("My job requires me to make " + scriptsMo + " Javascripts a Month. " + "That's " + scriptsYr + " scripts each year!")
+	
+}
+
+calcPages(4, 365, 31);
+
+
+
