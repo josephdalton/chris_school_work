@@ -1,14 +1,14 @@
 // JavaScript Document
-//Chris Lynch, 9/12/13 Expressions Wacky
-//How many times I wear lip stick per year
+//Chris Lynch, 10/10/13 Expressions Wacky
+//How many days a year I play GTA V
 
-var lipstickType = ["Mac", "Loreal", "NYX"]; /* Lipstick Brands 0,1,2 */
-var daysYear = 365; /* Days in a year */
-var timeMonth = 2; /* How many times per month */
-var monthsYear = 12; /* How many months in a year */
-
+var monthsinYear = 12; /* How many months in a year */
+var gamesPlay = ["GTA V", "Call of Duty", "Gears of War"]; /* 0,1,2 Diffrent Games to Play */
+var timesPlayed = 28; /* how many times I play a month*/
+var daysYear = 365; /* the amount of days per year*/
+var totalPlayed = monthsinYear * timesPlayed; /* multiply amount played times amount of months*/
  
-console.log("I wear", lipstickType[2], "brand lipstick", monthsYear * timeMonth, "times a year","(",daysYear," days in a year)"); /* Calculate how many times a year I wear lip stick */
+console.log("I like to play", gamesPlay[0], totalPlayed, "times a year.", "I also like to play", gamesPlay[2], " just as much"); /* Calculate how many times a year I play games */
 
 
 
