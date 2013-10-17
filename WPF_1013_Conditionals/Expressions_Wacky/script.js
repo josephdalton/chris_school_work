@@ -2,12 +2,14 @@
 
 /* Define the cost and the amount of money I have */
 var foodCost = "3";
-var myMoney = "12";
+var myMoneyvar = prompt('How much money do you Have?');
+var myMoney = myMoneyvar;
+
 /* Calcuate the amout of ice cream I can afford */
 var calculateAmount = myMoney / foodCost;
 
 /* if my money is equal or greater then show the output */
-if(myMoney >= foodCost)
+if(myMoney <= foodCost)
 {
 	/* displaying the physical output of data, and the calculation of the total amount I can buy */
 	console.log("You can afford a bowl of Ice Cream! Infact, you can afford", calculateAmount, " with all of your money! Woohoo :)");
