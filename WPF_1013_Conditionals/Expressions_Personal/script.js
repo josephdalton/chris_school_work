@@ -6,4 +6,4 @@ var xboxCost = "499";
 var myMoney = "354";
 
 /* using an ternary to see if I have enough money for the xbox one and displaying the results*/
-(myMoney >= xboxCost || xboxCost < myMoney)?(console.log('You have enough money to buy the Xbox One!')):(console.log('Sorry, but you do not have enough money.'));
+(myMoney >= xboxCost || xboxCost < myMoney)?(console.log('You have enough money to buy the Xbox One!')):(console.log('Sorry, but you do not have enough money for Xbox One.'));
